@@ -5,19 +5,19 @@ namespace Day20_Regex
     class Program
     {
         static void Main(string[] args)
-        {
-            
-            string name1;
-            bool result1;
+        {  string name2;
+            bool result2;
 
-            UC1 firstname = new UC1();
+
+            Uc2 lastname = new Uc2();
             Console.WriteLine("Enter First Character in Bolt Latters...");
-            Console.WriteLine("Enter the First Name");
+            Console.WriteLine("Enter the Last Name");
 
-            name1 = Console.ReadLine();
+            name2 = Console.ReadLine();
 
-            result1 = firstname.FirstNameCheck(name1);
-            Console.WriteLine(result1);
-        }
-     }
+            result2 = lastname.LastNameCheck(name2);
+            Console.WriteLine(result2);
+
+            }
+      }
 }
